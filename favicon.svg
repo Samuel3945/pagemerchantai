@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32" role="img" aria-label="MyMerchantAI">
+  <rect width="24" height="24" rx="5.5" fill="#0B1512"/>
+  <path d="M4 8.5 12 4l8 4.5v7L12 20l-8-4.5v-7Z" fill="none" stroke="#19B9AB" stroke-width="1.5" stroke-linejoin="round"/>
+  <path d="M12 12v7.5M4.3 8.6 12 12l7.7-3.4" fill="none" stroke="#19B9AB" stroke-width="1.5" stroke-linejoin="round"/>
+</svg>

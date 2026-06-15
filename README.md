@@ -6,6 +6,8 @@ are served as a plain static site from a CDN and never consume the application V
 
 - **App (the software):** `https://app.mymerchantai.com` — Next.js + Clerk, runs on the VPS.
 - **Marketing (this repo):** static HTML/CSS/JS — deploy to any static CDN, zero build step.
+- **Live:** https://samuel3945.github.io/pagemerchantai/ (GitHub Pages). Every push to `main`
+  redeploys automatically — main is production.
 
 The design comes from a Claude Design handoff (Shopify + HubSpot direction, evolved from the
 product's teal + terracotta system). It was delivered as vanilla HTML/CSS/JS, so it ships
@@ -70,11 +72,20 @@ python3 -m http.server 8080
 
 ## Deploy
 
-Any static host works (no build). Recommended, in order of least friction:
+**Production is GitHub Pages, deploying from `main` / root.** No build step — push to `main`
+and it goes live at https://samuel3945.github.io/pagemerchantai/ in ~1 min. `.nojekyll`
+makes Pages serve the files as-is.
 
-- **Cloudflare Pages / Netlify / Vercel** — connect the repo, framework = "None / static",
-  output dir = repo root. Add the `mymerchantai.com` domain there.
-- **GitHub Pages** — Settings → Pages → deploy from `main` / root.
+### Custom domain (`mymerchantai.com`)
+
+1. Add a `CNAME` file at repo root containing `mymerchantai.com`.
+2. DNS: apex `A`/`ALIAS` records to GitHub Pages IPs (or a `CNAME` for `www`).
+3. Repo → Settings → Pages → set the custom domain, enable "Enforce HTTPS".
+
+### Want a faster edge CDN later?
+
+Cloudflare Pages / Netlify / Vercel give better caching, Brotli and HTTP/3. Migration is
+just connecting the repo and moving DNS — **no code changes**, since this is plain static.
 
 Keep `app.mymerchantai.com` (the software) on the VPS. This site stays off it.
 

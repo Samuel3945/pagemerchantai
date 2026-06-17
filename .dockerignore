@@ -1,6 +1,8 @@
+node_modules
+.next
 .git
-.github
-Dockerfile
-.dockerignore
-nginx.conf
-*.md
+legacy-html
+*.log
+README.md
+.DS_Store
+.vscode

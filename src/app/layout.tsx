@@ -3,6 +3,7 @@ import { Bricolage_Grotesque, Inter_Tight, JetBrains_Mono } from 'next/font/goog
 import './globals.css'
 import { Header } from '@/components/layout/header'
 import { Footer } from '@/components/layout/footer'
+import { GoogleAds } from '@/components/analytics/google-ads'
 import { BRAND, LOCALE, SITE_DESCRIPTION, SITE_TITLE, SITE_URL } from '@/lib/site'
 
 const bricolage = Bricolage_Grotesque({
@@ -68,6 +69,7 @@ export default function RootLayout({
         <Header />
         <main>{children}</main>
         <Footer />
+        <GoogleAds />
       </body>
     </html>
   )

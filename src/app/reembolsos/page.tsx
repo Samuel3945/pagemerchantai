@@ -3,8 +3,9 @@ import Link from 'next/link'
 import { LegalProse } from '@/components/layout/legal-prose'
 
 export const metadata: Metadata = {
-  title: 'Política de Reembolsos — MyMerchantAI',
+  title: 'Política de Reembolsos',
   description: 'Política de Reembolsos de MyMerchantAI. Conoce tus derechos de retracto (Colombia) y desistimiento (UE), cancelación y cómo solicitar un reembolso.',
+  alternates: { canonical: '/reembolsos' },
 }
 
 const h2Style = {

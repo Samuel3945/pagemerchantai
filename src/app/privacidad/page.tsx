@@ -2,8 +2,9 @@ import type { Metadata } from 'next'
 import { LegalProse } from '@/components/layout/legal-prose'
 
 export const metadata: Metadata = {
-  title: 'Política de Privacidad — MyMerchantAI',
+  title: 'Política de Privacidad',
   description: 'Política de Privacidad de MyMerchantAI. Cómo recopilamos, usamos y protegemos tus datos. Cumplimos con la Ley 1581 de Colombia, GDPR y CCPA.',
+  alternates: { canonical: '/privacidad' },
 }
 
 const h2Style = {

@@ -3,6 +3,7 @@ import { Bricolage_Grotesque, Inter_Tight, JetBrains_Mono } from 'next/font/goog
 import './globals.css'
 import { Header } from '@/components/layout/header'
 import { Footer } from '@/components/layout/footer'
+import { BRAND, LOCALE, SITE_DESCRIPTION, SITE_TITLE, SITE_URL } from '@/lib/site'
 
 const bricolage = Bricolage_Grotesque({
   subsets: ['latin'],
@@ -24,8 +25,36 @@ const jetbrainsMono = JetBrains_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'MyMerchantAI — El POS inteligente para Latinoamérica',
-  description: 'Vende más rápido y controla tu negocio en tiempo real. El punto de venta con inteligencia artificial para comercios de Latinoamérica.',
+  metadataBase: new URL(SITE_URL),
+  title: {
+    default: SITE_TITLE,
+    template: `%s — ${BRAND}`,
+  },
+  description: SITE_DESCRIPTION,
+  applicationName: BRAND,
+  openGraph: {
+    type: 'website',
+    locale: LOCALE,
+    url: SITE_URL,
+    siteName: BRAND,
+    title: SITE_TITLE,
+    description: SITE_DESCRIPTION,
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: SITE_TITLE,
+    description: SITE_DESCRIPTION,
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      'index': true,
+      'follow': true,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
 }
 
 export default function RootLayout({

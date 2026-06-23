@@ -3,8 +3,9 @@ import Link from 'next/link'
 import { LegalProse } from '@/components/layout/legal-prose'
 
 export const metadata: Metadata = {
-  title: 'Términos de Servicio — MyMerchantAI',
+  title: 'Términos de Servicio',
   description: 'Términos de Servicio de MyMerchantAI. Condiciones de uso del software POS para comercios, facturación, responsabilidades y ley aplicable.',
+  alternates: { canonical: '/terminos' },
 }
 
 const h2Style = {

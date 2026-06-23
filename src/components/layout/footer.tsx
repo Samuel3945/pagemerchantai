@@ -32,7 +32,7 @@ export function Footer() {
           <div>
             <div className="text-[12px] tracking-[0.10em] uppercase mb-3.5" style={{ fontWeight: 650, color: 'var(--on-dark-3)' }}>Industrias</div>
             <div className="flex flex-col gap-2.5 text-[14.5px]">
-              {[['farmacias', 'Farmacias'], ['ferreterias', 'Ferreterías'], ['ropa', 'Tiendas de ropa'], ['minimercados', 'Minimercados'], ['veterinarias', 'Veterinarias'], ['papelerias', 'Papelerías']].map(([slug, label]) => (
+              {[['farmacias', 'Droguerías'], ['ferreterias', 'Ferreterías'], ['ropa', 'Tiendas de ropa'], ['minimercados', 'Minimercados'], ['veterinarias', 'Veterinarias'], ['papelerias', 'Papelerías']].map(([slug, label]) => (
                 <Link key={slug} href={`/industria/${slug}`} className="hover:text-white transition-colors">{label}</Link>
               ))}
             </div>
@@ -63,7 +63,7 @@ export function Footer() {
         <div className="mt-12">
           <div className="text-[12px] tracking-[0.10em] uppercase mb-5" style={{ fontWeight: 650, color: 'var(--on-dark-3)' }}>Todas las industrias</div>
           <nav aria-label="Índice de industrias" className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-2.5">
-            {[['farmacias', 'Farmacias'], ['ferreterias', 'Ferreterías'], ['ropa', 'Tiendas de ropa'], ['minimercados', 'Minimercados'], ['veterinarias', 'Veterinarias'], ['papelerias', 'Papelerías']].map(([slug, label]) => (
+            {[['farmacias', 'Droguerías'], ['ferreterias', 'Ferreterías'], ['ropa', 'Tiendas de ropa'], ['minimercados', 'Minimercados'], ['veterinarias', 'Veterinarias'], ['papelerias', 'Papelerías']].map(([slug, label]) => (
               <Link key={slug} href={`/industria/${slug}`} className="px-3.5 py-3 rounded-[10px] text-[13.5px] hover:text-white transition-colors" style={{ fontWeight: 600, background: 'var(--band-2)', border: '1px solid var(--band-line)', color: 'var(--on-dark)' }}>
                 {label}
               </Link>

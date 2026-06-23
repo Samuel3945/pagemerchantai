@@ -3,7 +3,7 @@
 import { motion } from 'framer-motion'
 
 const industries = [
-  'Farmacias',
+  'Droguerías',
   'Ferreterías',
   'Tiendas de ropa',
   'Minimercados',

@@ -6,7 +6,7 @@ import { motion } from 'framer-motion'
 const industries = [
   {
     slug: 'farmacias',
-    label: 'Farmacias',
+    label: 'Droguerías',
     desc: 'Controlá vencimientos, lotes y stock crítico. Nunca pierdas un medicamento por caducidad.',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" width="26" height="26">

@@ -84,7 +84,7 @@ export const SECTORS: Sector[] = [
     bullets: [
       'Inventario con alertas de vencimiento, lotes y stock mínimo',
       'Ventas rápidas con lector de código de barras',
-      'Fiados con el nombre del cliente y cobros parciales',
+      'Créditos (fiados) con el nombre del cliente y cobros parciales',
       'Facturación electrónica y cierre de caja sin sacar cuentas en papel',
     ],
     faqs: [
@@ -130,7 +130,7 @@ export const SECTORS: Sector[] = [
           + 'presentación y descuenta el inventario en tiempo real.',
       },
       {
-        heading: 'Fiados a contratistas y arqueo de caja anti-fraude',
+        heading: 'Créditos (fiados) a contratistas y arqueo de caja anti-fraude',
         body:
           'Llevá los fiados con el nombre del cliente y cobros parciales, y cerrá '
           + 'la caja con un arqueo a ciegas que cuida tu plata: el cajero cuenta '
@@ -141,7 +141,7 @@ export const SECTORS: Sector[] = [
       'Catálogo amplio con búsqueda por nombre o código',
       'Venta por unidad, peso o medida',
       'Inventario en tiempo real con stock mínimo',
-      'Fiados y cierre de caja a ciegas (anti-fraude)',
+      'Créditos (fiados) y cierre de caja a ciegas (anti-fraude)',
     ],
     faqs: [
       {
@@ -172,7 +172,7 @@ export const SECTORS: Sector[] = [
     bullets: [
       'Variantes por talla, color y referencia',
       'Inventario en tiempo real por sucursal',
-      'Fiados y abonos con nombre del cliente',
+      'Créditos (fiados) y abonos con nombre del cliente',
       'Reportes de lo que más se vende',
     ],
   },
@@ -197,7 +197,7 @@ export const SECTORS: Sector[] = [
           + 'trabarte. El inventario baja solo con cada venta.',
       },
       {
-        heading: 'Los fiados del barrio, ordenados',
+        heading: 'Los créditos (fiados) del barrio, ordenados',
         body:
           'Dejá el cuaderno atrás. Registrá a quién le fiaste, con nombre y monto, '
           + 'y aceptá abonos parciales. Sabés siempre cuánto te deben y quién, sin '
@@ -213,7 +213,7 @@ export const SECTORS: Sector[] = [
     ],
     bullets: [
       'Caja rápida con código de barras',
-      'Fiados del barrio con cobros parciales',
+      'Créditos (fiados) del barrio con cobros parciales',
       'Inventario en tiempo real',
       'Cierre de caja a ciegas (anti-fraude)',
     ],
@@ -246,7 +246,7 @@ export const SECTORS: Sector[] = [
     bullets: [
       'Productos y servicios en la misma caja',
       'Inventario con alertas de vencimiento',
-      'Fiados y cuentas por cliente',
+      'Créditos (fiados) y cuentas por cliente',
       'Cierre de caja sin cuadrar a mano',
     ],
   },
@@ -278,7 +278,7 @@ export const SECTORS: Sector[] = [
           + 'se actualiza solo en cada venta.',
       },
       {
-        heading: 'Fiados y cierre de caja sin cuentas en papel',
+        heading: 'Créditos (fiados) y cierre de caja sin cuentas en papel',
         body:
           'Registrá fiados con nombre y cobros parciales, y cerrá la caja con un '
           + 'arqueo que cuida tu plata. Sin sacar cuentas a mano al final del día.',
@@ -288,7 +288,7 @@ export const SECTORS: Sector[] = [
       'Catálogo amplio con búsqueda rápida',
       'Ventas ágiles en hora pico',
       'Inventario en tiempo real con stock mínimo',
-      'Fiados y cierre de caja automático',
+      'Créditos (fiados) y cierre de caja automático',
     ],
     faqs: [
       {

@@ -22,7 +22,7 @@ export function Footer() {
           <div>
             <div className="text-[12px] tracking-[0.10em] uppercase mb-3.5" style={{ fontWeight: 650, color: 'var(--on-dark-3)' }}>Producto</div>
             <div className="flex flex-col gap-2.5 text-[14.5px]">
-              {[['/#tour', 'Caja / POS'], ['/#tour', 'Inventario'], ['/#tour', 'Fiados'], ['/#ia', 'Agente de IA'], ['/precios', 'Precios']].map(([href, label]) => (
+              {[['/#tour', 'Caja / POS'], ['/#tour', 'Inventario'], ['/#tour', 'Créditos'], ['/#ia', 'Agente de IA'], ['/precios', 'Precios']].map(([href, label]) => (
                 <Link key={label} href={href} className="hover:text-white transition-colors">{label}</Link>
               ))}
             </div>

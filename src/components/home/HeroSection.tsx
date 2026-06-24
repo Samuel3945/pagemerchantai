@@ -107,7 +107,7 @@ function DashboardMockup() {
           { label: 'Resumen', active: true },
           { label: 'Caja' },
           { label: 'Inventario' },
-          { label: 'Fiados' },
+          { label: 'Créditos' },
           { label: 'Reportes' },
           { label: 'Asistente IA' },
         ].map((item) => (
@@ -173,7 +173,7 @@ function DashboardMockup() {
           {[
             { lab: 'Ventas hoy', val: '$1.842.500', delta: '▲ 12% vs ayer', up: true },
             { lab: 'Tickets', val: '87', delta: '▲ 9', up: true },
-            { lab: 'Fiado por cobrar', val: '$312.000', delta: '8 clientes', up: false },
+            { lab: 'Crédito por cobrar', val: '$312.000', delta: '8 clientes', up: false },
           ].map((kpi) => (
             <div
               key={kpi.lab}

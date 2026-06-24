@@ -33,7 +33,7 @@ const features = [
     accentSoft: 'var(--teal-soft)',
   },
   {
-    title: 'Fiados y crédito',
+    title: 'Créditos y fiados',
     desc: 'Crédito a clientes con plazos, abonos y recordatorios automáticos por WhatsApp.',
     span: '',
     icon: (

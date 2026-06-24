@@ -64,7 +64,7 @@ export const COMPETITORS: Competitor[] = [
       { feature: 'Funciona en el celular', them: 'Sí', us: 'Sí' },
       { feature: 'Funciona en computador y web', them: 'En el plan Pro', us: 'Sí, desde el plan gratis' },
       { feature: 'Inventario en tiempo real', them: 'Sí', us: 'Sí' },
-      { feature: 'Fiados y deudas de clientes', them: 'Sí', us: 'Sí' },
+      { feature: 'Créditos (fiados) y deudas de clientes', them: 'Sí', us: 'Sí' },
       { feature: 'Apertura y cierre de caja', them: 'Sí', us: 'Sí, con arqueo a ciegas anti-fraude' },
       { feature: 'Perfiles de empleado por rol', them: 'Sí', us: 'Sí, con PIN por empleado' },
       { feature: 'Facturación electrónica (Colombia)', them: 'Sí', us: 'Sí, desde el plan Negocio' },

@@ -25,7 +25,7 @@ const steps = [
   },
   {
     num: '03',
-    title: 'Los fiados, sin enredos',
+    title: 'Los créditos (fiados), sin enredos',
     body: 'Control de créditos a clientes, plazos y abonos. Sabés quién te debe, cuánto y hace cuánto — y el sistema manda el recordatorio por vos.',
     feats: ['Plazos, abonos y recordatorios por WhatsApp'],
     panel: <FiadosMockup />,

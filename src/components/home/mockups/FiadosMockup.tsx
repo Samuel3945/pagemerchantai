@@ -11,7 +11,7 @@ export function FiadosMockup() {
     <div style={{ fontFamily: 'var(--font-sans)', color: 'var(--ink)', fontSize: 13, display: 'flex', flexDirection: 'column', gap: 12 }}>
       <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
         <span style={{ fontFamily: 'var(--font-display)', fontWeight: 500, fontSize: 19, letterSpacing: '-0.02em' }}>
-          Muro de fiados
+          Muro de créditos
         </span>
         <span
           style={{

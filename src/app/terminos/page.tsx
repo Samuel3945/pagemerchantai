@@ -32,7 +32,7 @@ export default function TerminosPage() {
     >
       <h2 style={h2Style}>1. Aceptación de los términos</h2>
       <p>Al acceder, registrarse o utilizar los servicios de MyMerchantAI (en adelante, &quot;el Servicio&quot;), usted acepta quedar vinculado por estos Términos de Servicio (en adelante, &quot;los Términos&quot;) y por nuestra <Link href="/privacidad" style={linkStyle}>Política de Privacidad</Link>. Si no acepta estos Términos en su totalidad, no debe utilizar el Servicio.</p>
-      <p>El Servicio es operado por «RAZÓN SOCIAL» (NIT «NIT»), con domicilio en la República de Colombia (en adelante, &quot;la Empresa&quot; o &quot;MyMerchantAI&quot;).</p>
+      <p>El Servicio es operado por Samuel Alzate Tejada, con domicilio en la República de Colombia (en adelante, &quot;la Empresa&quot; o &quot;MyMerchantAI&quot;).</p>
 
       <h2 style={h2Style}>2. Descripción del servicio</h2>
       <p>MyMerchantAI es una plataforma de punto de venta (POS) basada en navegador web, orientada a comercios y empresas. Ofrece funciones de caja, gestión de inventario, control de créditos a clientes (fiados), reportes, facturación electrónica y herramientas de inteligencia artificial, entre otras (en adelante, &quot;el Software&quot; o &quot;la Plataforma&quot;).</p>
@@ -80,7 +80,7 @@ export default function TerminosPage() {
       <p>El incumplimiento de estas prohibiciones faculta a la Empresa para suspender o terminar su cuenta de forma inmediata y sin necesidad de aviso previo.</p>
 
       <h2 style={h2Style}>7. Propiedad intelectual</h2>
-      <p>La Plataforma, el Software, el código fuente, las interfaces, los logotipos, las marcas, el diseño y todo el contenido generado por MyMerchantAI son propiedad exclusiva de «RAZÓN SOCIAL» (NIT «NIT») y están protegidos por las leyes colombianas e internacionales de propiedad intelectual.</p>
+      <p>La Plataforma, el Software, el código fuente, las interfaces, los logotipos, las marcas, el diseño y todo el contenido generado por MyMerchantAI son propiedad exclusiva de Samuel Alzate Tejada y están protegidos por las leyes colombianas e internacionales de propiedad intelectual.</p>
       <p>Sus datos e información (catálogos de productos, bases de clientes, registros de ventas y demás contenido que usted ingrese) son de su propiedad. Al usar el Servicio, usted otorga a MyMerchantAI una licencia no exclusiva, mundial, libre de regalías y limitada para procesar, almacenar y utilizar dichos datos únicamente con el fin de prestar y mejorar el Servicio, conforme a la <Link href="/privacidad" style={linkStyle}>Política de Privacidad</Link>.</p>
 
       <h2 style={h2Style}>8. Datos del cliente y privacidad</h2>
@@ -137,7 +137,7 @@ export default function TerminosPage() {
 
       <h2 style={h2Style}>19. Contacto</h2>
       <p>Para consultas legales o relacionadas con estos Términos, contáctenos en:</p>
-      <p><strong>MyMerchantAI — «RAZÓN SOCIAL» (NIT «NIT»)</strong><br />Correo electrónico: <a href="mailto:legal@mymerchantai.com" style={linkStyle}>legal@mymerchantai.com</a></p>
+      <p><strong>MyMerchantAI — Samuel Alzate Tejada</strong><br />Correo electrónico: <a href="mailto:legal@mymerchantai.com" style={linkStyle}>legal@mymerchantai.com</a></p>
     </LegalProse>
   )
 }

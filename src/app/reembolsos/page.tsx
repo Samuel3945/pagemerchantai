@@ -124,7 +124,7 @@ export default function ReembolsosPage() {
       <h2 style={h2Style}>11. Contacto</h2>
       <p>Para consultas sobre reembolsos o cancelaciones:</p>
       <p>
-        <strong>MyMerchantAI — «RAZÓN SOCIAL» (NIT «NIT»)</strong><br />
+        <strong>MyMerchantAI — Samuel Alzate Tejada</strong><br />
         Correo electrónico: <a href="mailto:soporte@mymerchantai.com" style={linkStyle}>soporte@mymerchantai.com</a>
       </p>
       <p>También puedes consultar nuestros <Link href="/terminos" style={linkStyle}>Términos de Servicio</Link> y <Link href="/privacidad" style={linkStyle}>Política de Privacidad</Link> para más información.</p>

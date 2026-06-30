@@ -40,7 +40,7 @@ export default function PrivacidadPage() {
       <h2 style={h2Style}>1. Responsable del tratamiento e información de contacto</h2>
       <p>El responsable del tratamiento de los datos personales recogidos a través de mymerchantai.com y del Servicio es:</p>
       <p>
-        <strong>«RAZÓN SOCIAL» (NIT «NIT»)</strong>, operando bajo la marca comercial <strong>MyMerchantAI</strong>.<br />
+        <strong>Samuel Alzate Tejada</strong>, operando bajo la marca comercial <strong>MyMerchantAI</strong>.<br />
         Domicilio: República de Colombia.<br />
         Correo electrónico para asuntos de privacidad: <a href="mailto:privacidad@mymerchantai.com" style={linkStyle}>privacidad@mymerchantai.com</a>
       </p>
@@ -164,7 +164,7 @@ export default function PrivacidadPage() {
       <h2 style={h2Style}>13. Contacto</h2>
       <p>Para preguntas, solicitudes o reclamaciones relacionadas con esta Política de Privacidad:</p>
       <p>
-        <strong>MyMerchantAI — «RAZÓN SOCIAL» (NIT «NIT»)</strong><br />
+        <strong>MyMerchantAI — Samuel Alzate Tejada</strong><br />
         Correo electrónico: <a href="mailto:privacidad@mymerchantai.com" style={linkStyle}>privacidad@mymerchantai.com</a>
       </p>
       <p>Si no recibe respuesta satisfactoria dentro del plazo legal, tiene derecho a presentar una queja ante la Superintendencia de Industria y Comercio de Colombia (SIC) o ante la autoridad de protección de datos competente en su jurisdicción.</p>
